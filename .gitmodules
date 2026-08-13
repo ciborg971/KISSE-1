@@ -1,0 +1,3 @@
+[submodule "Electronic/Doc/Luckfox-Pico-docs"]
+	path = Electronic/Doc/Luckfox-Pico-docs
+	url = https://github.com/LuckfoxTECH/Luckfox-Pico-docs.git

@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Core1106") (type "KiCad") (uri "${KIPRJMOD}/Lib/Core1106.kicad_sym") (options "") (descr ""))
+	(lib (name "MyLib") (type "KiCad") (uri "${KIPRJMOD}/Lib/MyLib.kicad_sym") (options "") (descr ""))
+	(lib (name "lcsc") (type "KiCad") (uri "${KIPRJMOD}/Lib/lcsc.kicad_sym") (options "") (descr ""))
+)
