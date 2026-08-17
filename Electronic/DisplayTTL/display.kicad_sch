@@ -3486,7 +3486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a4affe-e728-498d-bbcf-66a292d0eba0")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR080"
 			(at 119.38 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3547,7 +3547,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR030")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -3565,7 +3565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04219bb7-c889-4285-a80e-573946e65cfb")
-		(property "Reference" "JP?"
+		(property "Reference" "JP4"
 			(at 243.84 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3652,7 +3652,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "JP?")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -3669,7 +3669,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "079ec66c-2d9c-4ead-9e80-8e829e5d9aed")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR085"
 			(at 203.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3729,7 +3729,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR023")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3747,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07fc1f0d-13ff-465d-a0a9-e415e7a56907")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR084"
 			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3807,7 +3807,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR021")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -3825,7 +3825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09042b63-c8eb-4842-bd87-e565f66d9048")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR077"
 			(at 92.71 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3885,7 +3885,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR025")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3903,7 +3903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a4807be-95e6-4cbb-aa4e-23a0ac7e8d59")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR083"
 			(at 195.58 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -3963,7 +3963,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR022")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3981,7 +3981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17fe5549-5db0-44cf-9719-e614be39a913")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR081"
 			(at 125.73 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4041,7 +4041,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR028")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4059,7 +4059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "193c5b49-bfc7-47c0-8f7c-7478e5138387")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 66.04 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4081,7 +4081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 61.722 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -4123,7 +4123,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -4141,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d3ced03-adc5-4412-a90a-19aaf1714393")
-		(property "Reference" "JP?"
+		(property "Reference" "JP5"
 			(at 259.08 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4228,7 +4228,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "JP?")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -4246,7 +4246,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "250d7845-b2b4-49dd-adcf-6f544672246f")
-		(property "Reference" "L?"
+		(property "Reference" "L3"
 			(at 132.05 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4341,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "L?")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -4359,7 +4359,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a056192-2c48-4825-b515-f8afded82f49")
-		(property "Reference" "C?"
+		(property "Reference" "C39"
 			(at 101.6 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4381,7 +4381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 98.7552 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -4423,7 +4423,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "C?")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -4441,7 +4441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b3f532-e08f-42fa-93d0-faf4a96ada6d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR082"
 			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4501,7 +4501,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR027")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -4519,7 +4519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "431e606f-e332-43e9-8ab7-d660e8f04898")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 111.4425 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +4581,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4599,7 +4599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d2d063-1824-4b19-a56d-f91e3deba512")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR076"
 			(at 57.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4659,7 +4659,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR031")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -4912,7 +4912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66529309-844c-439a-96e6-5015b188fb17")
-		(property "Reference" "R?"
+		(property "Reference" "R14"
 			(at 104.14 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4934,7 +4934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 99.822 125.73 90)
 			(hide yes)
 			(show_name no)
@@ -4976,7 +4976,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "R?")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -4994,7 +4994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68d08b1d-f5ff-462c-b351-c6d7787d4026")
-		(property "Reference" "C?"
+		(property "Reference" "C38"
 			(at 91.44 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +5016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 88.5952 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5058,7 +5058,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "C?")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825e4527-1fd9-41a1-b478-44942c82452c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR078"
 			(at 92.71 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5136,7 +5136,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR026")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b56102-1b74-4eb0-a6a5-ae259b6012ef")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR089"
 			(at 254 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5214,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR032")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5232,7 +5232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7984ab-da16-40d4-8526-ba2dd806ea88")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR079"
 			(at 101.6 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5292,7 +5292,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR029")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5310,7 +5310,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc5a431-b980-4c8e-92a0-16fa6bc7da4f")
-		(property "Reference" "C?"
+		(property "Reference" "C37"
 			(at 54.61 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5332,7 +5332,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5374,7 +5374,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "C?")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -5392,7 +5392,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a43f4b27-a9c6-4903-bec8-511b03f183c0")
-		(property "Reference" "R?"
+		(property "Reference" "R16"
 			(at 205.74 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5414,7 +5414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 208.28 76.708 90)
 			(hide yes)
 			(show_name no)
@@ -5456,7 +5456,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "R?")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -5474,7 +5474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d7e166-be37-4e04-8efb-02613710741a")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR088"
 			(at 248.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5534,7 +5534,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR033")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2934c3d-d2e6-47d7-8b0c-ae1c251f7715")
-		(property "Reference" "U6"
+		(property "Reference" "U12"
 			(at 139.7 106.9349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5658,7 +5658,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "U6")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -5676,7 +5676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc1152cd-f52d-4e3a-a940-3dfce769ea60")
-		(property "Reference" "C?"
+		(property "Reference" "C40"
 			(at 129.54 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5740,7 +5740,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "C?")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -5757,7 +5757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8b9b572-31d2-4526-a8f9-3a9752460cb7")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR090"
 			(at 264.16 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5817,7 +5817,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR034")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -5834,7 +5834,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cabfbb49-c9aa-45c3-beb9-0b03df81bc65")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR086"
 			(at 203.2 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5894,7 +5894,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR024")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -5912,7 +5912,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5336d4f-7aa5-4d4e-97fb-df8a9ac1410c")
-		(property "Reference" "R?"
+		(property "Reference" "R15"
 			(at 200.66 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5934,7 +5934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 204.978 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -5976,7 +5976,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "R?")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -5993,7 +5993,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6c3cb32-0a4c-4b1d-ae54-b8b83120bc95")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR087"
 			(at 238.76 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6053,7 +6053,7 @@
 		(instances
 			(project "DisplayTTL"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR035")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)

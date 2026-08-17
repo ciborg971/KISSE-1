@@ -648,7 +648,7 @@
         "uuid": "4c9b8540-5a8e-4795-b617-25270bb1103e"
       }
     ],
-    "used_designators": "TP1-3,U1-6,FPC1,H1-4,J1-12,#PWR1-37",
+    "used_designators": "TP1-16,U1-12,C1-40,SW1-2,H1-4,R1-16,JP1-5,X1,L1-3,FPC1,#PWR1-90,D1-2,J1-12,Card1",
     "variants": []
   },
   "sheets": [
