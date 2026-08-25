@@ -3545,7 +3545,7 @@
 			(uuid "642cdb7a-9a57-4747-a928-778e803c59e2")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR080")
 					(unit 1)
@@ -3650,7 +3650,7 @@
 			(uuid "52b39e9c-e38c-4fe8-8fe6-03e34aa52c50")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "JP4")
 					(unit 1)
@@ -3727,7 +3727,7 @@
 			(uuid "f42ce16c-5907-4bef-abc6-6a56e02ecb6f")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR085")
 					(unit 1)
@@ -3805,7 +3805,7 @@
 			(uuid "f60032e1-a08f-435e-a6f0-3745b3b897b7")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR084")
 					(unit 1)
@@ -3883,7 +3883,7 @@
 			(uuid "fb7b26df-be23-42cc-84f3-73052ed9fa83")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR077")
 					(unit 1)
@@ -3961,7 +3961,7 @@
 			(uuid "0322b7d8-96f1-48bd-a55a-633ebdd1ce6a")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR083")
 					(unit 1)
@@ -4039,7 +4039,7 @@
 			(uuid "a4967843-8ded-423f-b486-316d9cc3840d")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR081")
 					(unit 1)
@@ -4121,7 +4121,7 @@
 			(uuid "f4034218-25dc-49e0-9c11-f9acef152aac")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "R13")
 					(unit 1)
@@ -4226,7 +4226,7 @@
 			(uuid "1dc641cf-88f0-4a3a-8c94-86b09c842366")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "JP5")
 					(unit 1)
@@ -4339,7 +4339,7 @@
 			(uuid "bee48eaf-490f-4a82-958e-ddd35b6a5d81")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "L3")
 					(unit 1)
@@ -4421,7 +4421,7 @@
 			(uuid "b0a7cf26-6236-4302-aca5-f5289d1b7c07")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "C39")
 					(unit 1)
@@ -4499,7 +4499,7 @@
 			(uuid "4f9924de-d5a9-4066-9087-0e588a138944")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR082")
 					(unit 1)
@@ -4579,7 +4579,7 @@
 			(uuid "df160762-8eb3-4a78-8866-b8f724f50dca")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "D2")
 					(unit 1)
@@ -4657,7 +4657,7 @@
 			(uuid "e7576d66-95ff-4415-b4f0-d2786be3994f")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR076")
 					(unit 1)
@@ -4892,7 +4892,7 @@
 			(uuid "9aa74ff8-8945-44e2-99c8-e6d1d1711c8a")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "FPC1")
 					(unit 1)
@@ -4974,7 +4974,7 @@
 			(uuid "b634ed91-bc86-4d53-9bc1-d1913c5b3a99")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "R14")
 					(unit 1)
@@ -5056,7 +5056,7 @@
 			(uuid "38f00b4c-fbf8-40bf-af85-f10eb8b7314e")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "C38")
 					(unit 1)
@@ -5134,7 +5134,7 @@
 			(uuid "fc5f97fa-2bf6-4386-b547-9a69d4ca5190")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR078")
 					(unit 1)
@@ -5212,7 +5212,7 @@
 			(uuid "c0d54cc1-1708-4ddc-b447-d95ea23dd7f9")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR089")
 					(unit 1)
@@ -5290,7 +5290,7 @@
 			(uuid "fe158698-ff70-470b-9619-4197579f0449")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR079")
 					(unit 1)
@@ -5372,7 +5372,7 @@
 			(uuid "129c9a19-5eba-4049-baa2-59d116941a04")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "C37")
 					(unit 1)
@@ -5454,7 +5454,7 @@
 			(uuid "8176fd75-c4f8-4d2a-a827-50eddef170b9")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "R16")
 					(unit 1)
@@ -5532,7 +5532,7 @@
 			(uuid "4200b497-8c6f-496e-b59a-6450b88c0811")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR088")
 					(unit 1)
@@ -5656,7 +5656,7 @@
 			(uuid "e26754cf-427c-4061-b060-afb200b4d6fa")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "U12")
 					(unit 1)
@@ -5738,7 +5738,7 @@
 			(uuid "7607d636-7f58-4ea0-bd90-c819c46f7c64")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "C40")
 					(unit 1)
@@ -5815,7 +5815,7 @@
 			(uuid "a4d071ca-5678-49fc-b75c-d69888fd41f3")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR090")
 					(unit 1)
@@ -5892,7 +5892,7 @@
 			(uuid "35f11a3d-c23d-41b2-8c55-bfdf834e67be")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR086")
 					(unit 1)
@@ -5974,7 +5974,7 @@
 			(uuid "1621e075-6f3e-4c23-b4e7-9a5a9fa12534")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "R15")
 					(unit 1)
@@ -6051,7 +6051,7 @@
 			(uuid "6056df34-69ba-4a37-a787-2b997d34cf9e")
 		)
 		(instances
-			(project "DisplayTTL"
+			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
 					(reference "#PWR087")
 					(unit 1)
