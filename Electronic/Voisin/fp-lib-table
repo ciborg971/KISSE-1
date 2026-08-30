@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "MyLib") (type "KiCad") (uri "${KIPRJMOD}/Lib/MyLib.pretty") (options "") (descr ""))
+	(lib (name "GNS 5894 TAC") (type "KiCad") (uri "${KIPRJMOD}/Lib/MyLib.pretty/GNS 5894 TAC.pretty") (options "") (descr ""))
+	(lib (name "lcsc") (type "KiCad") (uri "${KIPRJMOD}/Lib/lcsc.pretty") (options "") (descr ""))
+)
