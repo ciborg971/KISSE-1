@@ -186,12 +186,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
-				(offset 0.762)
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -199,17 +196,7 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
+			(property "Reference" "J"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -219,8 +206,18 @@
 					)
 				)
 			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "Footprint" ""
-				(at 5.08 0 0)
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -231,17 +228,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -252,7 +238,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "test point tp"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -263,7 +249,17 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Pin* Test*"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -274,24 +270,91 @@
 					)
 				)
 			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
-						(width 0)
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "TestPoint_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -299,6 +362,42 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -792,197 +891,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:ABG08A40M560"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ABG08A40M560"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc:IND-SMD_L8.0-W8.0_ABG08A40"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_COILANK-INTERNATIONAL-ABG08A40M560_C311463.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "Coilank(驰兴电感)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "ABG08A40M560"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C311463"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Power Inductors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ABG08A40M560_0_1"
-				(arc
-					(start -4.29 0.02)
-					(mid -3.28 1.1)
-					(end -2.27 0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.13 0.02)
-					(mid -1.12 1.1)
-					(end -0.11 0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.02 0.02)
-					(mid 1.03 1.1)
-					(end 2.04 0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.21 0.02)
-					(mid 3.22 1.1)
-					(end 4.23 0.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc:AL8860WT-7"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1203,6 +1111,186 @@
 						)
 					)
 					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc:LSXND5050YKL330MMG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LSXND5050YKL330MMG"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:IND-SMD_L4.9-W4.9_LSXND5050"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5789110.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "TAIYO YUDEN(太诱)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "LSXND5050YKL330MMG"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C5789110"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LSXND5050YKL330MMG_0_1"
+				(arc
+					(start -4.06 0.01)
+					(mid -3.035 1.0102)
+					(end -2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.03 0.01)
+					(mid -1.005 1.0102)
+					(end 0 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.01)
+					(mid 1.0249 1.0101)
+					(end 2.03 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.03 0.01)
+					(mid 3.0549 1.0101)
+					(end 4.06 -0.01)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1469,6 +1557,12 @@
 		)
 	)
 	(junction
+		(at 116.84 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4145f268-5b7e-4957-9e12-d14e2438062c")
+	)
+	(junction
 		(at 161.29 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1484,13 +1578,7 @@
 		(at 116.84 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70832a1d-90f7-4d1d-9952-175690e54d88")
-	)
-	(junction
-		(at 116.84 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b572e23e-09df-4c9a-89eb-aa861aac34f6")
+		(uuid "ad29d0f6-4535-474b-9cb5-d443cb438524")
 	)
 	(junction
 		(at 151.13 76.2)
@@ -1503,6 +1591,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbcf9d42-9788-44a5-879e-890cc13f29f3")
+	)
+	(wire
+		(pts
+			(xy 157.48 115.57) (xy 170.18 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "031ee3bf-d49b-409b-aa19-b3aa6613b973")
 	)
 	(wire
 		(pts
@@ -1536,16 +1634,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 139.7 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "153aa303-522b-4f93-a557-a9e615d6d480")
-	)
-	(wire
-		(pts
 			(xy 140.97 78.74) (xy 140.97 76.2)
 		)
 		(stroke
@@ -1576,13 +1664,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 86.36) (xy 140.97 86.36)
+			(xy 160.02 120.65) (xy 170.18 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "288ece98-5acb-422f-8731-deec2a729adf")
+		(uuid "3a080d65-7ccb-4b7a-829c-3621f3ee4b57")
+	)
+	(wire
+		(pts
+			(xy 140.97 87.63) (xy 140.97 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a634ba8-cb26-456d-afd0-ea2111322976")
 	)
 	(wire
 		(pts
@@ -1623,16 +1721,6 @@
 			(type default)
 		)
 		(uuid "607dd295-17f4-4a4c-bc56-d7d15183bf45")
-	)
-	(wire
-		(pts
-			(xy 139.7 87.63) (xy 116.84 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a96e381-bdfc-4705-82fb-d91dc29c6fe8")
 	)
 	(wire
 		(pts
@@ -1686,6 +1774,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 87.63) (xy 140.97 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8c940d5-c741-4fe8-9bbc-4fd6a50071eb")
+	)
+	(wire
+		(pts
 			(xy 104.14 87.63) (xy 104.14 97.79)
 		)
 		(stroke
@@ -1736,6 +1834,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 118.11) (xy 170.18 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed716e7c-6336-4e47-aaa4-bda0e4ec7c5e")
+	)
+	(wire
+		(pts
 			(xy 161.29 76.2) (xy 168.91 76.2)
 		)
 		(stroke
@@ -1755,7 +1863,7 @@
 		(uuid "114cbc31-00cd-4e1e-9e31-0e86c0f88777")
 	)
 	(label "PWM_COB"
-		(at 92.71 102.87 0)
+		(at 91.44 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1763,6 +1871,16 @@
 			(justify left bottom)
 		)
 		(uuid "48004119-c0e1-43c9-83c2-cf7769b3d83d")
+	)
+	(label "PWM_COB"
+		(at 160.02 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccd87bb8-e69d-4a9b-96b4-bfdc188c89a4")
 	)
 	(label "COB_SET"
 		(at 143.51 102.87 0)
@@ -1773,87 +1891,6 @@
 			(justify left bottom)
 		)
 		(uuid "ea25422c-0112-46fd-b338-807bb2f041a3")
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 175.26 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d6a0b9c-52bc-4f9b-86c8-0458831320e8")
-		(property "Reference" "J2"
-			(at 176.53 115.5699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn02_Pin"
-			(at 176.784 117.602 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 175.26 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 175.26 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5b88a3af-c2d6-4dd0-86a1-6df23c06a164")
-		)
-		(pin "1"
-			(uuid "c09ac420-7b03-45bc-9c74-5906f675b613")
-		)
-		(instances
-			(project "CobDriver1A"
-				(path "/febc86eb-389f-45ce-b083-75da60c9f788"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2023,7 +2060,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 118.11 0)
+		(at 157.48 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2033,7 +2070,7 @@
 		(dnp no)
 		(uuid "59fc3f6f-49d8-4b00-b9dc-ec1a89058446")
 		(property "Reference" "#PWR05"
-			(at 170.18 124.46 0)
+			(at 157.48 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2044,7 +2081,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 122.174 0)
+			(at 157.48 122.174 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2054,7 +2091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 118.11 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2065,7 +2102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 118.11 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2076,7 +2113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 118.11 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2293,6 +2330,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C49333228"
+			(at 116.84 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70dea5ec-3ac7-483f-9a96-bf9ba1bf6200")
 		)
@@ -2315,129 +2363,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:ABG08A40M560")
-		(at 116.84 82.55 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "931e9dcc-c4ef-41b5-bc55-76f0950f49b3")
-		(property "Reference" "L1"
-			(at 118.11 81.3099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ABG08A40M560"
-			(at 118.11 83.8499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "lcsc:IND-SMD_L8.0-W8.0_ABG08A40"
-			(at 124.46 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Power-Inductors_COILANK-INTERNATIONAL-ABG08A40M560_C311463.html"
-			(at 127 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 116.84 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Coilank(驰兴电感)"
-			(at 129.54 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "ABG08A40M560"
-			(at 132.08 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C311463"
-			(at 134.62 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2177b7b3-b7da-4853-ae19-462f42d2b623")
-		)
-		(pin "2"
-			(uuid "784f6a90-d0e6-4dfd-8ec9-f448d8db2fdf")
-		)
-		(instances
-			(project "Satellite"
-				(path "/7936600c-6bbd-4cd4-8e66-fcf71fb2ef7f"
-					(reference "L4")
-					(unit 1)
-				)
-			)
-			(project "CobDriver1A"
-				(path "/febc86eb-389f-45ce-b083-75da60c9f788"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
-		(at 170.18 115.57 0)
+		(at 157.48 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2448,7 +2375,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b937e23-cfe7-41a1-b268-e2b96aa64581")
 		(property "Reference" "#PWR04"
-			(at 170.18 119.38 0)
+			(at 157.48 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2459,7 +2386,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 170.18 110.49 0)
+			(at 157.48 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2469,7 +2396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2480,7 +2407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +2418,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 170.18 115.57 0)
+			(at 157.48 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2580,6 +2507,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C49333228"
+			(at 168.91 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e9d5a062-4478-4d4a-94e7-98c2fae66b0f")
 		)
@@ -2596,83 +2534,6 @@
 			(project "CobDriver1A"
 				(path "/febc86eb-389f-45ce-b083-75da60c9f788"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 91.44 102.87 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca2530e4-5d22-452e-a572-14fbe94b6327")
-		(property "Reference" "TP1"
-			(at 88.138 97.79 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 88.138 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 91.44 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 91.44 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9eaa6c5e-f0b6-4023-beac-fa2f73e68e7a")
-		)
-		(instances
-			(project "CobDriver1A"
-				(path "/febc86eb-389f-45ce-b083-75da60c9f788"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2701,7 +2562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "MBRA140T3G"
 			(at 143.51 83.8199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2767,6 +2628,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C54798"
+			(at 140.97 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "31149cd3-55ea-4571-8137-d324e957ee8b")
 		)
@@ -2777,6 +2649,91 @@
 			(project "CobDriver1A"
 				(path "/febc86eb-389f-45ce-b083-75da60c9f788"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 175.26 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d315e3c0-7e19-419a-a340-bdc191a0337c")
+		(property "Reference" "J3"
+			(at 176.53 116.8399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 176.53 119.3799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 175.26 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 175.26 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab1e0486-f9f9-4a23-9184-74e0cdd5a35b")
+		)
+		(pin "1"
+			(uuid "3638640e-3ad8-4f0b-ae4d-d9e69160074a")
+		)
+		(pin "3"
+			(uuid "f4982e53-28ae-4f4e-9566-93af4b54352c")
+		)
+		(instances
+			(project "CobDriver1A"
+				(path "/febc86eb-389f-45ce-b083-75da60c9f788"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -2864,6 +2821,120 @@
 			(project "CobDriver1A"
 				(path "/febc86eb-389f-45ce-b083-75da60c9f788"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:LSXND5050YKL330MMG")
+		(at 116.84 82.55 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9b4b3bf-bb88-473e-87ed-63270ec16c23")
+		(property "Reference" "L2"
+			(at 118.11 81.2799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LSXND5050YKL330MMG"
+			(at 92.456 82.296 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lcsc:IND-SMD_L4.9-W4.9_LSXND5050"
+			(at 124.46 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5789110.pdf"
+			(at 127 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TAIYO YUDEN(太诱)"
+			(at 129.54 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LSXND5050YKL330MMG"
+			(at 132.08 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5789110"
+			(at 134.62 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "027bad6f-6d0f-436c-a70d-bed0758d4669")
+		)
+		(pin "1"
+			(uuid "4210b21d-c9a6-4dce-b46c-071db4ba518d")
+		)
+		(instances
+			(project "CobDriver1A"
+				(path "/febc86eb-389f-45ce-b083-75da60c9f788"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2987,7 +3058,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 159.512 99.06 90)
 			(hide yes)
 			(show_name no)
