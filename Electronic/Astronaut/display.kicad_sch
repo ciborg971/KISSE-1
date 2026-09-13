@@ -2520,6 +2520,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 203.2 57.15)
@@ -2612,6 +2727,12 @@
 		(uuid "d1476485-489f-4614-ba46-e694fe0f69a2")
 	)
 	(junction
+		(at 101.6 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6b26b63-b92b-4119-b0e3-da801f66d921")
+	)
+	(junction
 		(at 195.58 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2685,7 +2806,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 102.87) (xy 97.79 102.87)
+			(xy 107.95 102.87) (xy 101.6 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2722,6 +2843,16 @@
 			(type default)
 		)
 		(uuid "46bcc397-ce9f-4f49-8928-b5110ddd4e51")
+	)
+	(wire
+		(pts
+			(xy 101.6 102.87) (xy 97.79 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52392831-d994-48ea-a1e0-9ded547a0a0a")
 	)
 	(wire
 		(pts
@@ -3486,7 +3617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a4affe-e728-498d-bbcf-66a292d0eba0")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR072"
 			(at 119.38 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3547,7 +3678,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR080")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -3565,7 +3696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04219bb7-c889-4285-a80e-573946e65cfb")
-		(property "Reference" "JP4"
+		(property "Reference" "JP6"
 			(at 243.84 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,7 +3716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 243.84 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3652,7 +3783,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "JP4")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -3669,7 +3800,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "079ec66c-2d9c-4ead-9e80-8e829e5d9aed")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR077"
 			(at 203.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3729,7 +3860,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR085")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -3747,7 +3878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07fc1f0d-13ff-465d-a0a9-e415e7a56907")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR076"
 			(at 203.2 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3807,7 +3938,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR084")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -3825,7 +3956,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09042b63-c8eb-4842-bd87-e565f66d9048")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR069"
 			(at 92.71 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3885,7 +4016,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR077")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -3903,7 +4034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a4807be-95e6-4cbb-aa4e-23a0ac7e8d59")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR075"
 			(at 195.58 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -3963,7 +4094,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR083")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -3981,7 +4112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17fe5549-5db0-44cf-9719-e614be39a913")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR073"
 			(at 125.73 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4041,7 +4172,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR081")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -4059,7 +4190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "193c5b49-bfc7-47c0-8f7c-7478e5138387")
-		(property "Reference" "R13"
+		(property "Reference" "R15"
 			(at 66.04 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4123,7 +4254,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "R13")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -4141,7 +4272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d3ced03-adc5-4412-a90a-19aaf1714393")
-		(property "Reference" "JP5"
+		(property "Reference" "JP7"
 			(at 259.08 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,7 +4292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
 			(at 259.08 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4228,7 +4359,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "JP5")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -4246,7 +4377,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "250d7845-b2b4-49dd-adcf-6f544672246f")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 132.05 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4472,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -4359,7 +4490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a056192-2c48-4825-b515-f8afded82f49")
-		(property "Reference" "C39"
+		(property "Reference" "C35"
 			(at 101.6 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4423,7 +4554,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "C39")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -4441,7 +4572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b3f532-e08f-42fa-93d0-faf4a96ada6d")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR074"
 			(at 157.48 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4501,7 +4632,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR082")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -4599,7 +4730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48d2d063-1824-4b19-a56d-f91e3deba512")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR068"
 			(at 57.15 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -4659,7 +4790,85 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR076")
+					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 101.6 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ba887f7-3703-4894-ba36-eb16e6bf5334")
+		(property "Reference" "#FLG02"
+			(at 101.6 100.965 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 101.6 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "506d1e99-d2ae-4953-bf62-e56b1da2eb4c")
+		)
+		(instances
+			(project "Astronaut"
+				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -4912,7 +5121,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66529309-844c-439a-96e6-5015b188fb17")
-		(property "Reference" "R14"
+		(property "Reference" "R16"
 			(at 104.14 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4976,7 +5185,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "R14")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4994,7 +5203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68d08b1d-f5ff-462c-b351-c6d7787d4026")
-		(property "Reference" "C38"
+		(property "Reference" "C34"
 			(at 91.44 105.4099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5016,7 +5225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 88.5952 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5058,7 +5267,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "C38")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "825e4527-1fd9-41a1-b478-44942c82452c")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR070"
 			(at 92.71 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -5136,7 +5345,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR078")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b56102-1b74-4eb0-a6a5-ae259b6012ef")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR081"
 			(at 254 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5423,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR089")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -5232,7 +5441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d7984ab-da16-40d4-8526-ba2dd806ea88")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR071"
 			(at 101.6 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5292,7 +5501,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR079")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -5310,7 +5519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bc5a431-b980-4c8e-92a0-16fa6bc7da4f")
-		(property "Reference" "C37"
+		(property "Reference" "C33"
 			(at 54.61 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5332,7 +5541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 51.7652 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5374,7 +5583,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "C37")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5392,7 +5601,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a43f4b27-a9c6-4903-bec8-511b03f183c0")
-		(property "Reference" "R16"
+		(property "Reference" "R18"
 			(at 205.74 72.644 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5456,7 +5665,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -5474,7 +5683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d7e166-be37-4e04-8efb-02613710741a")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR080"
 			(at 248.92 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -5534,7 +5743,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR088")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2934c3d-d2e6-47d7-8b0c-ae1c251f7715")
-		(property "Reference" "U12"
+		(property "Reference" "U11"
 			(at 139.7 106.9349 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5658,7 +5867,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "U12")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -5676,7 +5885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc1152cd-f52d-4e3a-a940-3dfce769ea60")
-		(property "Reference" "C40"
+		(property "Reference" "C36"
 			(at 129.54 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +5907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 126.6952 127 0)
 			(hide yes)
 			(show_name no)
@@ -5740,7 +5949,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "C40")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -5757,7 +5966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8b9b572-31d2-4526-a8f9-3a9752460cb7")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR082"
 			(at 264.16 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5817,7 +6026,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR090")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -5834,7 +6043,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cabfbb49-c9aa-45c3-beb9-0b03df81bc65")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR078"
 			(at 203.2 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5894,7 +6103,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR086")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -5912,7 +6121,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d5336d4f-7aa5-4d4e-97fb-df8a9ac1410c")
-		(property "Reference" "R15"
+		(property "Reference" "R17"
 			(at 200.66 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5976,7 +6185,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "R15")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -5993,7 +6202,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6c3cb32-0a4c-4b1d-ae54-b8b83120bc95")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR079"
 			(at 238.76 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -6053,7 +6262,7 @@
 		(instances
 			(project "Astronaut"
 				(path "/4c9b8540-5a8e-4795-b617-25270bb1103e/59dd6f46-a1cc-4ee8-8cbd-ffb6b5085406"
-					(reference "#PWR087")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
