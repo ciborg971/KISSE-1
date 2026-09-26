@@ -1,0 +1,45 @@
+// Main UI, 320x960 portrait (Qualia bar display).
+
+export component AppWindow inherits Window {
+    width: 320px;
+    height: 960px;
+    background: #101820;
+
+    in property <int> counter: 0;
+    in property <bool> up-pressed: false;
+    in property <bool> down-pressed: false;
+
+    VerticalLayout {
+        alignment: center;
+        spacing: 32px;
+        padding: 24px;
+
+        Text {
+            text: "KISSE-1";
+            font-size: 48px;
+            color: white;
+            horizontal-alignment: center;
+        }
+
+        Text {
+            text: root.counter;
+            font-size: 120px;
+            color: #ffcc00;
+            horizontal-alignment: center;
+        }
+
+        Rectangle {
+            height: 80px;
+            border-radius: 12px;
+            background: root.up-pressed ? #2ecc71 : #2c3e50;
+            Text { text: "UP"; font-size: 32px; color: white; }
+        }
+
+        Rectangle {
+            height: 80px;
+            border-radius: 12px;
+            background: root.down-pressed ? #e74c3c : #2c3e50;
+            Text { text: "DOWN"; font-size: 32px; color: white; }
+        }
+    }
+}

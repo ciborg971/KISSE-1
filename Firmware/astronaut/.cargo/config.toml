@@ -1,0 +1,34 @@
+# Keep compilation settings in this file and user/runtime settings in `esp-config.toml`.
+include = ["esp-config.toml"]
+
+# Board switch:
+#   cargo qualia          -> build, flash and monitor the Qualia S3 (ESP32-S3)
+#   cargo astronaut       -> build, flash and monitor the Astronaut board (ESP32-P4)
+#   cargo build-qualia / cargo build-astronaut -> build only
+# Extra args are passed through, e.g. `cargo qualia --release`.
+[alias]
+qualia          = "run   --no-default-features --features qualia    --target xtensa-esp32s3-none-elf"
+astronaut       = "run   --no-default-features --features astronaut --target riscv32imafc-unknown-none-elf"
+build-qualia    = "build --no-default-features --features qualia    --target xtensa-esp32s3-none-elf"
+build-astronaut = "build --no-default-features --features astronaut --target riscv32imafc-unknown-none-elf"
+
+[target.xtensa-esp32s3-none-elf]
+runner = "espflash flash --monitor --chip esp32s3"
+rustflags = [
+  "-C", "link-arg=-nostartfiles",
+]
+
+[target.riscv32imafc-unknown-none-elf]
+runner = "espflash flash --monitor --chip esp32p4"
+rustflags = [
+  # Required to obtain backtraces (e.g. when using the "esp-backtrace" crate.)
+  # NOTE: May negatively impact performance of produced code
+  "-C", "force-frame-pointers",
+]
+
+[build]
+# Default target (Qualia), matches the `default` feature in Cargo.toml.
+target = "xtensa-esp32s3-none-elf"
+
+[unstable]
+build-std = ["alloc", "core"]

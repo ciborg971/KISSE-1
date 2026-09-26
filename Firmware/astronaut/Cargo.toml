@@ -1,0 +1,74 @@
+[package]
+edition      = "2024"
+name         = "astronaut"
+rust-version = "1.95"
+version      = "0.1.0"
+
+[[bin]]
+name = "astronaut"
+path = "./src/bin/main.rs"
+
+[features]
+# Board selection: enable exactly one. Use the `cargo qualia` / `cargo astronaut`
+# aliases from `.cargo/config.toml` rather than setting these by hand.
+default = ["qualia"]
+
+# Adafruit Qualia S3 dev board (ESP32-S3-WROOM-1, 16 MB flash, 8 MB octal PSRAM)
+qualia = [
+  "esp-hal/esp32s3",
+  "esp-rtos/esp32s3",
+  "esp-bootloader-esp-idf/esp32s3",
+  "esp-alloc/esp32s3",
+  "dep:port-expander",
+]
+
+# Astronaut board (ESP32-P4)
+astronaut = [
+  "esp-hal/esp32p4",
+  "esp-rtos/esp32p4",
+  "esp-bootloader-esp-idf/esp32p4",
+  "esp-alloc/esp32p4",
+]
+
+[dependencies]
+esp-hal = { version = "~1.2.2", features = ["unstable"] }
+
+esp-rtos = { version = "0.4.0", features = ["embassy", "esp-alloc"] }
+
+esp-bootloader-esp-idf = { version = "0.6.0" }
+
+embassy-executor = { version = "0.10.0", features = [] }
+embassy-time     = "0.5.0"
+esp-alloc        = { version = "0.11.0" }
+
+embedded-hal = "1.0"
+
+# Qualia: I2C GPIO expander (PCA9554A-compatible)
+port-expander = { version = "0.6.5", optional = true }
+
+# UI on the RGB display (both boards)
+slint = { version = "1.18.1", default-features = false, features = [
+  "compat-1-2",
+  "unsafe-single-threaded",
+  "libm",
+  "renderer-software",
+] }
+
+critical-section = "1.2.0"
+static_cell      = "2.1.1"
+
+[build-dependencies]
+slint-build = "1.18.1"
+
+
+# For fine tuning these settings, please refer to https://doc.rust-lang.org/cargo/reference/profiles.html
+[profile.dev]
+# The default debug profile is too slow and too big for resource-constrained devices.
+# Always build with some optimizations enabled.
+opt-level = "s"
+
+[profile.release]
+codegen-units = 1     # LLVM can perform better optimizations using a single thread
+debug         = 2     # prefer slower builds but better debugging experience
+lto           = 'fat'
+opt-level     = 's'
